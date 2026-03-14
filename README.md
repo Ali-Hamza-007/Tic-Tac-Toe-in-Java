@@ -45,13 +45,6 @@ This selection is transferred to the game activity using an **Intent extra param
 - In **Single Player mode**, the `triggerAiMove()` method automatically selects an **available empty position** and performs the AI move immediately after the user's turn. 🤖⚡  
 - The game state is controlled using a **`gameActive` boolean variable**, ensuring that **no additional moves are allowed once a win or draw has occurred**. 🔒🏁  
 
----
-
-## 📌 Future Improvements
-- 🤖 Implement **Minimax AI algorithm** for smarter gameplay  
-- 🎨 Add **animations and sound effects** for better user experience  
-- 🌐 Add **online multiplayer support**  
-- 📊 Maintain **scoreboard and game statistics**
 
 ---
 
