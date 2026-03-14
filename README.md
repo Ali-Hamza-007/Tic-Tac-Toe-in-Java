@@ -1,35 +1,52 @@
-❌ Tic Tac Toe - Android App ⭕
-A classic, interactive Tic Tac Toe game built natively for Android using Java. This app features a clean UI with Material Design components and supports two different gameplay modes to keep things interesting! 🎮
+❌ Tic Tac Toe – Android App ⭕
 
-✨ Features
-Dual Game Modes: * Single Player: Challenge a built-in AI that makes random strategic moves. 🤖
+A classic and interactive Tic Tac Toe Android application developed using Java and the Android SDK. The app features a clean, intuitive user interface built with Material Design components and supports multiple gameplay modes to deliver an engaging and enjoyable user experience. 🎮📱
 
-Multiplayer: Play locally with a friend on the same device. 👥
+✨ Key Features
+🎯 Dual Gameplay Modes
 
-Smart Game Logic: * Automatic win detection for horizontal, vertical, and diagonal matches. 🏆
+Single Player Mode: Play against a built-in AI that performs strategic random moves to challenge the player. 🤖🧠
 
-Detects draws when the board is full. 🤝
+Multiplayer Mode: Enjoy local multiplayer gameplay with a friend on the same device. 👥🎲
 
-Interactive "Reset" functionality to quickly start a new round. 🔄
+🧩 Intelligent Game Logic
 
-Material UI: Uses MaterialButton for a tactile, responsive grid experience. 🎨
+Automatic Win Detection: Identifies winning combinations across horizontal, vertical, and diagonal lines instantly. 🏆✨
 
-Seamless Navigation: A dedicated home screen to choose your game mode before playing. 🏠
+Draw Detection: Detects a tie when the board is fully occupied without a winner. 🤝📊
 
-🛠️ Built With
-Language: Java ☕
+Quick Reset Option: Restart the game instantly using the Reset functionality to begin a new round. 🔄⚡
 
-Framework: Android SDK (AppCompat, Material Components) 🤖
+🎨 Modern User Interface
 
-Navigation: Intent-based transitions between screens. 🗺️
+Designed using Material Design principles for a clean, responsive, and visually appealing UI. 🎨📐
 
-Logic: Custom game engine with Random class for AI moves. 🧠
+Utilizes MaterialButton components to create a tactile and interactive 3×3 game grid. 🟦🟩
 
-🚀 How It Works
-The Home Screen: Users select between "Single Player" and "Multiplayer." This choice is passed to the game screen via an Intent extra called gameMode.
+🏠 Seamless Navigation
 
-The Gameplay: * Players take turns placing "O" and "X" on a 3x3 grid.
+A dedicated home screen allows users to easily select their preferred game mode before starting the match. 🚀📲
 
-In Single Player mode, the triggerAiMove() function automatically finds an empty spot and makes a move immediately after the user.
+🛠️ Technology Stack
 
-The game state is managed by a gameActive boolean to prevent moves after a win or draw.
+Programming Language: Java ☕💻
+
+Framework: Android SDK (AppCompat, Material Components) 🤖📦
+
+Navigation: Intent-based screen transitions between activities. 🗺️🔗
+
+Game Logic: Custom game engine with Random class-based AI move generation. 🧠⚙️
+
+🚀 Application Workflow
+🏠 Home Screen
+
+Users begin by selecting either Single Player or Multiplayer mode.
+This selection is transferred to the game activity using an Intent extra parameter (gameMode). 🔄📤
+
+🎮 Gameplay Mechanics
+
+Players alternate turns placing “X” and “O” on a 3×3 grid board. ❌⭕
+
+In Single Player mode, the triggerAiMove() method automatically selects an available empty position and performs the AI move immediately after the user's turn. 🤖⚡
+
+The game state is controlled using a gameActive boolean variable, ensuring that no additional moves are allowed once a win or draw has occurred. 🔒🏁
